@@ -1,0 +1,30 @@
+{
+  "name": "vui",
+  "version": "1.0.0",
+  "description": "my vue components",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --config webpack.config.js",
+    "build": "webpack-dev-server --config webpack.dev.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linlinyang/vueui.git"
+  },
+  "author": "zoro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linlinyang/vueui/issues"
+  },
+  "homepage": "https://github.com/linlinyang/vueui#readme",
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "vue": "^2.5.16",
+    "vue-loader": "^15.2.6",
+    "vue-style-loader": "^4.1.1",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
