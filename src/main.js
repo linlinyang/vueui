@@ -1,8 +1,14 @@
 import vue from 'vue';
-import test from './test.vue';
-
+import router from './router';
+import 'iview/dist/styles/iview.css';
+import app from './app';
 
 new vue({
 	el: '.app',
-	components: {test},
+	router,
+	components: {app},
+	template: '<app />'
 });
+
+
+

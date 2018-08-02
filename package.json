@@ -16,11 +16,22 @@
   "bugs": {
     "url": "https://github.com/linlinyang/vueui/issues"
   },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
   "homepage": "https://github.com/linlinyang/vueui#readme",
   "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
     "css-loader": "^1.0.0",
+    "iview": "^3.0.0",
+    "url-loader": "^1.0.1",
     "vue": "^2.5.16",
     "vue-loader": "^15.2.6",
+    "vue-router": "^3.0.1",
     "vue-style-loader": "^4.1.1",
     "vue-template-compiler": "^2.5.16",
     "webpack": "^4.16.3",
