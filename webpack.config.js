@@ -8,6 +8,10 @@ module.exports = {
 		path: path.resolve(__dirname,'dist'),
 		filename: 'vui.js'
 	},
+	externals: {
+		'Vue': 'vue',
+		'vueRouter': 'vue-router'
+	},
 	module: {
 		rules: [{
 			test: /\.vue$/,
