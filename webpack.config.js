@@ -8,14 +8,6 @@ module.exports = {
 		path: path.resolve(__dirname,'dist'),
 		filename: 'vui.js'
 	},
-	externals: {
-		Vue: {
-			root: 'vue'
-		},
-		'vue-router': {
-			root: 'vueRouter'
-		}
-	},
 	module: {
 		rules: [{
 			test: /\.vue$/,
@@ -40,6 +32,7 @@ module.exports = {
 	},
 	resolve: {
 		extensions: ['.js','.vue','.json'],
+		modules: [path.resolve(__dirname,'src'),'node_modules'],
 		alias: {
 			vue$: 'vue/dist/vue.esm.js',
 			'@': path.resolve(__dirname,'src'),
