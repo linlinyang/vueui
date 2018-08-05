@@ -1,13 +1,14 @@
 import vue from 'vue';
 import vueRouter from 'vue-router';
-import btn from 'components/button';
+import home from '@/views/home';
 
 vue.use(vueRouter);
 
 export default new vueRouter({
+	mode: 'history',
 	routes: [{
 		path: '/',
 		name: 'root',
-		component: btn
+		component: home
 	}]
 });
